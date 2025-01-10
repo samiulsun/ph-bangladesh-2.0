@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/* ============================= */
+/* shared class */
+.title {
+	font-size: 44px;
+	font-weight: bold;
+	line-height: 48px;
+	margin-bottom: 18px;
+}
+.subtitle {
+	font-size: 18px;
+	opacity: 0.8;
+	margin-bottom: 10px;
+}
+.description {
+	font-size: 16px;
+	opacity: 0.8;
+}
+/* ========================= */
+/* header section */
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 150px;
+	padding: 18px 0;
+}
+.logo-txt {
+	font-size: 24px;
+	font-weight: bold;
+}
+.nav-btn {
+	color: #006a50;
+	font-size: 16px;
+	border-radius: 8px;
+	padding: 8px 12px;
+	border: 1px solid #006a50;
+}
+.banner {
+	margin: 0 150px;
+	border-radius: 18px;
+	background: rgb(198, 228, 214);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 70px;
+}
+
+.banner-subtitle {
+	font-size: 18px;
+	opacity: 0.4;
+	margin-bottom: 18px;
+}
+.banner-title {
+	font-size: 44px;
+	font-weight: bold;
+	line-height: 48px;
+	margin-bottom: 18px;
+}
+.banner-btn {
+	border: none;
+	border-radius: 6px;
+	background: rgb(0, 106, 80);
+	padding: 16px 18px 16px 18px;
+	color: #f5f5f5;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.banner-img {
+	object-fit: cover;
+	object-position: center;
+	height: 350px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* ================================ */
+/* pillars section */
+.pillars {
+	margin: 85px 150px;
+	margin-bottom: 100px;
+}
+.pillar-title {
+	opacity: 0.8;
+}
+.pillar-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 18px;
+}
+
+.pillar {
+	box-sizing: border-box;
+	border: 1px solid rgba(14, 14, 14, 0.15);
+	border-radius: 10px;
+	background: rgb(255, 255, 255);
+	padding: 18px;
+}
+.pillar-img {
+	width: 45px;
+	margin-bottom: 5px;
+}
+.pillar-subtitle {
+	font-size: 18px;
+	opacity: 0.8;
+	margin-bottom: 10px;
+}
+.pillar-description {
+	font-size: 16px;
+	opacity: 0.8;
+}
+/* ============================= */
+/* vision section */
+.vision {
+	margin: 0 150px 100px 150px;
+}
+.vision-title {
+}
+.vision-container {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	gap: 18px;
+}
+.vision-item {
+	background-color: #006a50;
+	padding: 28px;
+	border-radius: 12px;
+}
+.vision-item > img {
+	width: 45px;
+	margin-bottom: 5px;
+}
+.vision-item-btn {
+	padding: 8px 15px;
+	border: none;
+	border-radius: 7px;
+	font-size: 16px;
+	font-weight: bold;
+	opacity: 0.8;
+	margin-top: 40px;
+	cursor: pointer;
+	color: white;
+}
+.vision-item-1 {
+	background: rgba(84, 144, 245, 0.2);
+}
+.vision-item-2 {
+	background: rgb(198, 228, 214);
+}
+.vision-item-3 {
+	background: rgb(247, 235, 207);
+}
+.vision-item-btn-1 {
+	background: rgb(84, 144, 245);
+}
+.vision-item-btn-2 {
+	background: rgb(9, 161, 92);
+}
+.vision-item-btn-3 {
+	background: rgb(255, 194, 57);
+}
