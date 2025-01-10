@@ -165,3 +165,19 @@ nav {
 .vision-item-btn-3 {
 	background: rgb(255, 194, 57);
 }
+
+.quoate-container {
+	background: url('/assets/quote-bg.png');
+	background-color: rgb(255, 255, 255);
+	background-repeat: no-repeat;
+	background-size: 45px 45px;
+	background-position: calc(24px) calc(28px);
+
+	margin-top: 30px;
+	padding: 48px 24px 48px 24px;
+	border: 1px solid rgba(14, 14, 14, 0.15);
+	border-radius: 16px;
+}
+.yunus {
+	margin-top: 10px;
+}
