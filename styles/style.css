@@ -2,6 +2,15 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	background: rgb(255, 255, 255);
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 1) 35%,
+		rgba(245, 245, 245, 1) 100%
+	);
+	font-family: 'Fira Sans', serif;
+}
 /* ============================= */
 /* shared class */
 .title {
@@ -180,4 +189,42 @@ nav {
 }
 .yunus {
 	margin-top: 10px;
+}
+/* ============================ */
+/* opinion section */
+.opinion {
+	margin: 0 150px;
+}
+.question-container {
+	border-radius: 12px;
+	background: rgb(255, 255, 255);
+	margin-bottom: 100px;
+}
+table {
+	display: block;
+	border-collapse: collapse;
+	padding: 40px;
+}
+tr td:first-child {
+	padding-right: 70px;
+}
+
+th,
+td {
+	font-size: 18px;
+	border: 1px solid #ddd;
+	padding: 24px;
+	text-align: left;
+	font-weight: bold;
+}
+th {
+	background: rgb(198, 228, 214);
+}
+.question-container select {
+	box-sizing: border-box;
+	border: 1px solid rgb(14, 14, 14);
+	border-radius: 4px;
+	background: rgb(198, 228, 214);
+	font-size: 18px;
+	padding: 10px 24px;
 }
