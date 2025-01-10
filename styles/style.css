@@ -155,6 +155,7 @@ nav {
 	margin-top: 40px;
 	cursor: pointer;
 	color: white;
+	background: rgb(0, 106, 80);
 }
 .vision-item-1 {
 	background: rgba(84, 144, 245, 0.2);
@@ -227,4 +228,21 @@ th {
 	background: rgb(198, 228, 214);
 	font-size: 18px;
 	padding: 10px 24px;
+}
+/* =============================== */
+.recent-news {
+	margin: 0px 150px;
+}
+.news-container {
+	display: flex;
+	justify-content: space-between;
+	border-radius: 18px;
+	background: rgb(255, 255, 255);
+	padding: 36px;
+	margin-top: 24px;
+}
+.news-img {
+	height: 300px;
+	border-radius: 20px;
+	margin-right: 24px;
 }
