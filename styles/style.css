@@ -7,10 +7,11 @@ body {
 	background: linear-gradient(
 		180deg,
 		rgba(255, 255, 255, 1) 35%,
-		rgba(245, 245, 245, 1) 100%
+		rgb(231, 231, 231) 100%
 	);
 	font-family: 'Fira Sans', serif;
 }
+
 /* ============================= */
 /* shared class */
 .title {
@@ -26,10 +27,10 @@ body {
 }
 .description {
 	font-size: 16px;
-	opacity: 0.8;
+	opacity: 0.7;
 }
-/* ========================= */
-/* header section */
+/* ============================================= */
+/* ==========header section ==================*/
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -47,6 +48,12 @@ nav {
 	border-radius: 8px;
 	padding: 8px 12px;
 	border: 1px solid #006a50;
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-btn:hover {
+	background-color: #006a50;
+	color: #fff;
 }
 .banner {
 	margin: 0 150px;
@@ -78,6 +85,11 @@ nav {
 	font-size: 14px;
 	font-weight: bold;
 	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.banner-btn:hover {
+	background: rgb(0, 85, 64);
+	transform: scale(1.05);
 }
 
 .banner-img {
@@ -156,6 +168,11 @@ nav {
 	cursor: pointer;
 	color: white;
 	background: rgb(0, 106, 80);
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.vision-item-btn:hover {
+	transform: scale(1.05);
+	opacity: 1;
 }
 .vision-item-1 {
 	background: rgba(84, 144, 245, 0.2);
@@ -169,13 +186,21 @@ nav {
 .vision-item-btn-1 {
 	background: rgb(84, 144, 245);
 }
+.vision-item-btn-1:hover {
+	background: rgb(54, 114, 215);
+}
 .vision-item-btn-2 {
 	background: rgb(9, 161, 92);
+}
+.vision-item-btn-2:hover {
+	background: rgb(7, 131, 75);
 }
 .vision-item-btn-3 {
 	background: rgb(255, 194, 57);
 }
-
+.vision-item-btn-3:hover {
+	background: rgb(229, 164, 37);
+}
 .quoate-container {
 	background: url('/assets/quote-bg.png');
 	background-color: rgb(255, 255, 255);
@@ -192,7 +217,7 @@ nav {
 	margin-top: 10px;
 }
 /* ============================ */
-/* opinion section */
+/* ====================opinion section ===================*/
 .opinion {
 	margin: 0 150px;
 }
@@ -217,6 +242,7 @@ td {
 	padding: 24px;
 	text-align: left;
 	font-weight: bold;
+	opacity: 0.75;
 }
 th {
 	background: rgb(198, 228, 214);
@@ -230,6 +256,7 @@ th {
 	padding: 10px 24px;
 }
 /* =============================== */
+/* ==============recent news====================== */
 .recent-news {
 	margin: 0px 150px;
 }
@@ -246,6 +273,7 @@ th {
 	height: 225px;
 	border-radius: 20px;
 	margin-right: 24px;
+	margin-left: 24px;
 }
 .news-title {
 	font-size: 28px;
@@ -263,7 +291,8 @@ th {
 	margin-bottom: 10px;
 	opacity: 0.7;
 }
-/* ============================ */
+/* ========================================= */
+/* ================donate section========================= */
 .donate {
 	margin: 100px 150px;
 	padding: 20px 50px;
@@ -291,6 +320,12 @@ th {
 	background-color: #fff;
 	border-radius: 12px;
 	border: 1px solid rgba(14, 14, 14, 0.15);
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.donate-btn:hover {
+	background: rgb(198, 228, 214);
+
+	transform: scale(1.05);
 }
 .other-amount-box {
 	padding: 18px 36px;
@@ -312,6 +347,12 @@ th {
 	background: rgb(0, 106, 80);
 	color: #fff;
 	font-size: 18px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.done-btn:hover {
+	background: rgb(0, 85, 64);
+	transform: scale(1.05);
 }
 /* ============================ */
 /* subscribe */
@@ -324,21 +365,6 @@ th {
 	background: rgb(198, 228, 214);
 }
 
-/* =========================== */
-
-.footer {
-	margin-top: 50px;
-	background: rgb(255, 255, 255);
-	padding: 50px 160px 50px 160px;
-	text-align: center;
-}
-.footer-img {
-	padding: 0px 8px;
-	width: 20px;
-}
-/* .submit-email-btn {
-	margin-left: 0;
-} */
 .newslatter-content {
 	padding: 0 100px;
 }
@@ -366,4 +392,27 @@ th {
 	border-radius: 0px 8px 8px 0px;
 	background: rgb(0, 106, 80);
 	font-size: 18px;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.newsletter-button:hover {
+	background: rgb(0, 85, 64);
+	transform: scale(1.05);
+}
+/* =========================== */
+
+.footer {
+	margin-top: 50px;
+	background: rgb(255, 255, 255);
+	padding: 50px 160px 50px 160px;
+	text-align: center;
+}
+.footer-img {
+	padding: 0px 8px;
+	width: 20px;
+	cursor: pointer;
+	transition: transform 0.2s ease, opacity 0.3s ease;
+}
+.footer-img:hover {
+	transform: scale(1.1);
+	opacity: 0.8;
 }
