@@ -240,9 +240,26 @@ th {
 	background: rgb(255, 255, 255);
 	padding: 36px;
 	margin-top: 24px;
+	margin-bottom: 24px;
 }
 .news-img {
-	height: 300px;
+	height: 225px;
 	border-radius: 20px;
 	margin-right: 24px;
+}
+.news-title {
+	font-size: 28px;
+	opacity: 0.8;
+}
+.news-small-pic {
+	display: block;
+	width: 100px;
+	margin: 10px 0;
+}
+.date-container {
+	display: flex;
+	justify-content: flex-start;
+	gap: 10px;
+	margin-bottom: 10px;
+	opacity: 0.7;
 }
